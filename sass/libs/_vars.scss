@@ -1,0 +1,86 @@
+// Font.
+@font-face {
+    font-family: 'Athelas Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Athelas Regular'), url('/assets/fonts/Athelas-Regular.woff') format('woff');
+}
+@font-face {
+    font-family: 'Athelas Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Athelas Italic'), url('/assets/fonts/Athelas-Italic.woff') format('woff');
+}
+@font-face {
+    font-family: 'Athelas Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Athelas Bold'), url('/assets/fonts/Athelas-Bold.woff') format('woff');
+}
+@font-face {
+    font-family: 'Athelas Bold Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Athelas Bold Italic'), url('/assets/fonts/Athelas-BoldItalic.woff') format('woff');
+}
+@font-face {
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Proxima Nova'), url('/assets/fonts/proxima-nova.woff') format('woff');
+}
+
+
+
+// Misc.
+	$misc: (
+		z-index-base:		10000,
+		max-features:		20,
+		max-sidebar-links:	20
+	);
+
+// Duration.
+	$duration: (
+		transition:			0.2s,
+		activation:			1s
+	);
+
+// Size.
+	$size: (
+		border-radius:		0.25em,
+		border-width:		1px,
+		element-height:		2.75em,
+		element-margin:		2em,
+		sidebar-width:		18em,
+		sidebar-height:		3.5em,	// when <=large is active
+		inner-width:		75em
+	);
+
+// Fonts.
+	$font: (
+		family:				(Athelas Regular, serif),
+		headings:				(Proxima Nova, sans-serif),
+		family-fixed:		('Courier New', monospace),
+		weight:				normal,
+		weight-bold:		bold,
+		kerning-alt:		0.25em
+	);
+
+
+// Palette.
+	$palette: (
+		bg:					#000000,
+		bg-alt:				darken(#14728F, 5),
+		fg:					#000000,
+		fg-bold:			rgb(20,114,143),
+		fg-light:			rgba(170,3,164,0.35),
+		border:				rgb(170,3,164),
+		border-bg:			rgba(255,255,255,0.05),
+		link:					rgb(170,3,164),
+		accent1:			#ffffff,
+		accent1-alt:		darken(#ffffff, 10),
+		accent2:			#ffffff,
+		accent2-alt:		darken(#ffffff, 10),
+		accent3:			rgb(212,250,8),
+		accent3-alt:		darken(#D4FA08, 10)
+	);

@@ -1,0 +1,147 @@
+///
+/// Hyperspace by HTML5 UP
+/// html5up.net | @ajlkn
+/// Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+///
+
+/* Header */
+
+	#header {
+		@include vendor('display', 'flex');
+		background-color: _palette(accent1);
+		cursor: default;
+		font-family: _font(headings);
+		flex-direction: column;
+		padding: 1.75em 2em;
+
+		> .first-row {
+			display: flex;
+			justify-content: space-between;
+
+			> .title {
+				border: 0;
+				color: _palette(fg-bold);
+				display: block;
+				font-size: 1.25em;
+				font-weight: _font(weight-bold);
+				text-align: left;
+			}
+
+			> .navbar-toggle {
+				> .menu-bar-container {
+					display: inline-block;
+  				cursor: pointer;
+
+					& .bar1, & .bar2, & .bar3 {
+  				width: 35px;
+  				height: 5px;
+  				background-color: _palette(link);;
+  				margin: 6px 0;
+  				transition: 0.4s;
+					}
+
+					&.change .bar1 {
+  				-webkit-transform: rotate(-45deg) translate(-9px, 6px);
+  				transform: rotate(-45deg) translate(-9px, 6px);
+					}
+
+					&.change .bar2 {opacity: 0;}
+
+					&.change .bar3 {
+  				-webkit-transform: rotate(45deg) translate(-8px, -8px);
+  				transform: rotate(45deg) translate(-8px, -8px);
+					}
+				}
+			}
+		}
+
+		> nav {
+
+			@include vendor('flex', '1');
+			display: flex;
+			justify-content: center;
+			text-align: center;
+
+
+			> ul {
+
+				margin: 0;
+				padding: 0;
+				display: flex;
+				flex-direction: column;
+				text-align: center;
+
+				&.main-nav {
+	    		list-style-type: none;
+	    		display: none;
+					}
+				&.active {
+	  			display: flex;
+					}
+
+				> li {
+					display: inline-block;
+					margin-left: 1.75em;
+					padding: 0;
+					vertical-align: middle;
+
+					&:first-child {
+
+					}
+
+					a {
+						border: 0;
+						color: _palette(link);
+						display: inline-block;
+						font-size: 0.6em;
+						font-weight: _font(weight-bold);
+						letter-spacing: _font(kerning-alt);
+						text-transform: uppercase;
+
+						&:hover {
+							color: _palette(link);
+						}
+
+						&.active {
+							color: _palette(accent3);
+							background-color: _palette(bg);
+							padding: 0.5em 1.7em;
+						}
+					}
+				}
+			}
+		}
+
+		@include breakpoint('<=small') {
+		//	padding: 1em 2em;
+		}
+
+		@include breakpoint('<=xsmall') {
+		//	display: block;
+			// padding: 0 2em;
+			// text-align: left;
+
+
+
+			> nav {
+				// border-top: solid 1px _palette(border);
+				text-align: inherit;
+
+				.title {
+					font-size: 1.25em;
+					padding: 1em 0;
+				}
+
+				> ul {
+					> li {
+						margin-left: 0;
+
+						// a {
+						//	height: 2em;
+						//	line-height: 6em;
+						//}
+					}
+				}
+			}
+		}
+	}
