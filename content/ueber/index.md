@@ -3,9 +3,6 @@ title: "Über die Initiative"
 date: 2019-11-08T18:44:20+01:00
 draft: true
 ---
-<div class="inner">
-  <h1 class="major">{{ .Title }}</h1>
-  <div class="inner-content">
 <h2>Ziel</h2>
 
 <p>Für viele ist Google die erste Anlaufstelle, wenn es um Informationen jeglicher Art geht. Dabei sind die Ergebnisse, die bei einer Suchanfrage angezeigt werden, nach einer bestimmten, von Google festgelegten Logik sortiert – und diese Reihenfolge bestimmt maßgeblich, auf welcher Webseite die Nutzer*innen am Ende landen, denn die meisten klicken auf diejenigen Webseiten, die sich in der Liste ganz oben befinden. Wie können es linke und feministische Webseiten schaffen, dort zu stehen? Um diese Frage geht es bei feministclickback.org. Das Projekt möchte emanzipatorische Webseiten dabei unterstützen, die Prinzipien von Suchmaschinenoptimierung kennen und anwenden zu lernen, damit ihre Webseiten ein breiteres Publikum erreichen können.</p>
@@ -29,5 +26,3 @@ draft: true
 </p>
 <p>Diese Strategie ist besonders heimtückisch, weil zu vermuten ist, dass Schwangere, die einen Schwangerschaftsabbruch erwägen, besonders häufig das Internet für Informationen nutzen. Zumal Schwangerschaftsabbrüche in manchen Teilen der Bevölkerung noch so stigmatisiert sind, dass es womöglich im direkten Umfeld keine Bezugspersonen gibt, mit denen sie über ihre Situation offen reden könnten. Gleichzeitig ist in Deutschland auf Grundlage des Paragraphen 219a eingeschränkt, wer über Schwangerschaftsabbrüche informieren darf. Ärzt*innen, Kliniken und Praxen, die Abbrüche durchführen, ist dies z.B. unter Strafe verboten. Dies ist auch ein Grund, warum die Suchergebnisse in Deutschland in diesem Bereich relativ einseitig sind. In anderen Ländern, in denen es eine gesetzliche Regelung wie den Paragraphen 219a nicht gibt, wie etwa in Österreich, ist das Informationsangebot auf der ersten Seite der Suchergebnisse für "Abtreibung" um einiges vielfältiger, da auch die Webseiten von Kliniken und Ärzt*innen vertreten sind, die medizinisch fundiertes Wissen anbieten. Um die Einschränkung des Informationsangebots in Deutschland für sich auszunutzen, bieten viele „Lebenschutz“-Webseiten Telefon-Hotlines an, die vordergründig Rat und Hilfe anbieten, tatsächlich jedoch die Anrufer*innen von einem möglichen Schwangerschaftsabbruch abhalten sollen. Das sollte nicht unwidersprochen bleiben!
 </p>
-</div>
-</div>

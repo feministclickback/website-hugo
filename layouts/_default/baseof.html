@@ -2,7 +2,7 @@
 
 <html>
 	<head>
-    {{ $title := .site.Title }}
+    {{ $title := .Site.Title }}
     <title>
       {{ $title }}
     </title>
@@ -12,11 +12,11 @@
 		<meta property="og:type" content="website" />
 		<meta property="og:image" content="images/header-title-img.png"/>
 		<meta name="robots" content="index,follow">
-		<link rel="stylesheet" href="static/css/main.css" />
-		<noscript><link rel="stylesheet" href="static/css/noscript.css" /></noscript>
+		<link rel="stylesheet" href="/css/main.css" />
+		<noscript><link rel="stylesheet" href="/css/noscript.css" /></noscript>
 		<link rel="alternate" hreflang="de" href="https://feministclickback.org/ueber.html" />
-		<link rel="stylesheet" href="static/css/main.css" />
-		<noscript><link rel="stylesheet" href="static/css/noscript.css" /></noscript>
+		<link rel="stylesheet" href="/css/main.css" />
+		<noscript><link rel="stylesheet" href="/css/noscript.css" /></noscript>
     <!-- Piwik -->
     <script type="text/javascript">
     var _paq = _paq || [];
@@ -34,48 +34,11 @@
     <!-- End Piwik Code -->
 	</head>
 	<body class="is-preload">
+		{{ block "sidebar" . }}{{ end }}
+		{{ block "header" . }}{{ end }}
 
-		<!-- Header -->
-			<header id="header">
-				<div class="first-row">
-				<a href="index.html" class="title">feministclickback</a>
-				<span class="navbar-toggle" id="js-navbar-toggle">
-					<div class="menu-bar-container" onclick="iconChange(this)">
-  					<div class="bar1"></div>
-  					<div class="bar2"></div>
-  					<div class="bar3"></div>
-					</div>
-				</div>
-				<nav class="navbar">
-					<ul class="main-nav" id="js-menu">
-						<li><a href="index.html">Start</a></li>
-						<li><a href="#" class="active">Über</a></li>
-						<li><a href="anleitungen.html">Anleitungen</a></li>
-						<li><a href="workshops.html">Workshops</a></li>
-						<li><a href="glossar.html">Glossar</a></li>
-						<li><a href="kontakt.html">Kontakt</a></li>
-					</ul>
-					</span>
-					<script>
-					let mainNav = document.getElementById('js-menu');let navBarToggle = document.getElementById('js-navbar-toggle');
-					navBarToggle.addEventListener('click', function () {
-
-    			mainNav.classList.toggle('active');});
-					function iconChange(x) {
-  					x.classList.toggle("change");
-						}
-					</script>
-				</nav>
-			</header>
-
-		<!-- Wrapper -->
 			<div id="wrapper">
-
-				<!-- Main -->
-					<section id="main" class="wrapper">
-						{{ block "main" . }}{{ end }}
-					</section>
-
+			{{ block "wrapper" . }}{{ end }}
 			</div>
 
 		<!-- Footer -->
