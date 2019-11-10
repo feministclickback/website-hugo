@@ -1,6 +1,7 @@
 ---
-title: ""
+title: "Start"
 date: 2019-11-08T18:41:26+01:00
+menu: headerMenu
 draft: true
 ---
 <section id="start" class="wrapper style1 fullscreen fade-up">
@@ -19,7 +20,7 @@ draft: true
 <h2>Über die Initiative</h2>
 <p>Wir haben feministclickback 2016 gegründet, um feministische Aktivist*innen darin zu unterstützen, mithilfe von Suchmaschinenoptimierung ein breiteres Publikum zu erreichen.</p>
 <ul class="actions">
-<li><a href="ueber.html" class="button" >Mehr</a></li>
+<li><a href="ueber/" class="button" >Mehr</a></li>
 </ul>
 </div>
 </div>
@@ -30,7 +31,7 @@ draft: true
 <h2>Anleitungen und praktische Infos</h2>
 <p>Wenn ihr SEO für eure Webseite anwenden wollt, findet ihr hier erste praktische Infos.</p>
 <ul class="actions">
-<li><a href="anleitungen.html" class="button">Mehr</a></li>
+<li><a href="anleitungen/" class="button">Mehr</a></li>
 </ul>
 </div>
 </div>
@@ -41,7 +42,7 @@ draft: true
 <h2>Workshops</h2>
 <p>Wir bieten auf Anfrage Workshops und Vorträge zu SEO, Google und feministischen Strategien an.</p>
 <ul class="actions">
-<li><a href="workshops.html" class="button" >Mehr</a></li>
+<li><a href="workshops/" class="button" >Mehr</a></li>
 </ul>
 </div>
 </div>

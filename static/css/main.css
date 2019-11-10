@@ -2217,13 +2217,13 @@ p span:last-child {
 /* Wrapper (main) */
 #sidebar + #wrapper {
   margin-left: 18em; }
-  @media screen and (max-width: 1280px) {
+  @media screen and (max-width: 980px) {
     #sidebar + #wrapper {
-      margin-left: 0;
-      padding-top: 3.5em; } }
+      margin-left: 14em; } }
   @media screen and (max-width: 736px) {
     #sidebar + #wrapper {
-      padding-top: 0; } }
+      padding-top: 0;
+      margin-left: 0; } }
 #header + #wrapper > .wrapper > .inner {
   margin: 0 auto; }
 
@@ -2453,7 +2453,10 @@ p span:last-child {
     -ms-transform: translateY(2em);
     transform: translateY(2em);
     opacity: 0; }
-  @media screen and (max-width: 1280px) {
+  @media screen and (max-width: 980px) {
+    #sidebar {
+      width: 16em; } }
+  @media screen and (max-width: 736px) {
     #sidebar {
       height: 3.5em;
       left: 0;

@@ -10,13 +10,13 @@
 		#sidebar + & {
 			margin-left: _size(sidebar-width);
 
-			@include breakpoint('<=large') {
-				margin-left: 0;
-				padding-top: _size(sidebar-height);
+			@include breakpoint('<=medium') {
+				margin-left: _size(sidebar-width)-4;
 			}
 
 			@include breakpoint('<=small') {
 				padding-top: 0;
+				margin-left: 0;
 			}
 		}
 

@@ -130,8 +130,10 @@
 				}
 			}
 		}
-
-		@include breakpoint('<=large') {
+		@include breakpoint('<=medium') {
+			width: _size(sidebar-width)-2;
+		}
+		@include breakpoint('<=small') {
 			height: _size(sidebar-height);
 			left: 0;
 			line-height: _size(sidebar-height);
