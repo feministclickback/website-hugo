@@ -2102,6 +2102,33 @@ table {
   .wrapper.fade.inactive > .inner, body.is-preload .wrapper.fade > .inner {
     opacity: 0; }
 
+.glossar
+p {
+  display: flex;
+  justify-content: flex-start; }
+
+p span:first-child {
+  width: 30%;
+  color: #14728f;
+  font-family: Proxima Nova, sans-serif;
+  font-size: 1.25em; }
+
+p span:last-child {
+  width: 70%; }
+
+@media screen and (max-width: 736px) {
+  .glossar
+  p {
+    flex-direction: column; }
+
+  p span:first-child {
+    width: 100%;
+    font-family: Proxima Nova, sans-serif;
+    font-size: 1.25em;
+    margin-bottom: 20px; }
+
+  p span:last-child {
+    width: 100%; } }
 /* Header */
 #header {
   display: -moz-flex;
