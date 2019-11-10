@@ -1,7 +1,7 @@
 {{ define "header" }}
   <header id="header">
     <div class="first-row">
-    <a href="index.html" class="title">feministclickback</a>
+    <a href="/" class="title">feministclickback</a>
     <span class="navbar-toggle" id="js-navbar-toggle">
       <div class="menu-bar-container" onclick="iconChange(this)">
         <div class="bar1"></div>
@@ -10,14 +10,12 @@
       </div>
     </div>
     <nav class="navbar">
-      <ul class="main-nav" id="js-menu">
-        <li><a href="index.html">Start</a></li>
-        <li><a href="#" class="active">Über</a></li>
-        <li><a href="anleitungen.html">Anleitungen</a></li>
-        <li><a href="workshops.html">Workshops</a></li>
-        <li><a href="glossar.html">Glossar</a></li>
-        <li><a href="kontakt.html">Kontakt</a></li>
-      </ul>
+    <ul class="main-nav" id="js-menu">
+    {{ $currentPage := . }}
+    {{ range .Site.Menus.headerMenu }}
+    <li><a class="sidebar-nav-item{{if or ($currentPage.IsMenuCurrent "headerMenu" .) ($currentPage.HasMenuCurrent "headerMenu" .) }} active{{end}}" href="{{ .URL }}" title="{{ .Title }}">{{ .Name }}</a></li>
+    {{ end }}
+    </ul>
       </span>
       <script>
       let mainNav = document.getElementById('js-menu');let navBarToggle = document.getElementById('js-navbar-toggle');
