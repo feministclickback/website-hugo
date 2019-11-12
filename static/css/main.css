@@ -3,27 +3,27 @@
   font-family: 'Athelas Regular';
   font-style: normal;
   font-weight: normal;
-  src: local("Athelas Regular"), url("/assets/fonts/Athelas-Regular.woff") format("woff"); }
+  src: local("Athelas Regular"), url("assets/fonts/Athelas-Regular.woff") format("woff"); }
 @font-face {
   font-family: 'Athelas Italic';
   font-style: normal;
   font-weight: normal;
-  src: local("Athelas Italic"), url("/assets/fonts/Athelas-Italic.woff") format("woff"); }
+  src: local("Athelas Italic"), url("assets/fonts/Athelas-Italic.woff") format("woff"); }
 @font-face {
   font-family: 'Athelas Bold';
   font-style: normal;
   font-weight: normal;
-  src: local("Athelas Bold"), url("/assets/fonts/Athelas-Bold.woff") format("woff"); }
+  src: local("Athelas Bold"), url("assets/fonts/Athelas-Bold.woff") format("woff"); }
 @font-face {
   font-family: 'Athelas Bold Italic';
   font-style: normal;
   font-weight: normal;
-  src: local("Athelas Bold Italic"), url("/assets/fonts/Athelas-BoldItalic.woff") format("woff"); }
+  src: local("Athelas Bold Italic"), url("assets/fonts/Athelas-BoldItalic.woff") format("woff"); }
 @font-face {
   font-family: 'Proxima Nova';
   font-style: normal;
   font-weight: normal;
-  src: local("Proxima Nova"), url("/assets/fonts/proxima-nova.woff") format("woff"); }
+  src: local("Proxima Nova"), url("assets/fonts/proxima-nova.woff") format("woff"); }
 /*
 	Hyperspace by HTML5 UP
 	html5up.net | @ajlkn
@@ -2233,13 +2233,15 @@ p span:last-child {
   @media screen and (max-width: 1280px) {
     #sidebar + #wrapper + #footer {
       margin-left: 0; } }
-#footer > .inner a {
-  border-bottom-color: #aa03a4; }
-  #footer > .inner a:hover {
-    border-bottom-color: transparent; }
-#footer > .inner .menu {
-  font-size: 0.8em;
-  color: #aa03a4; }
+#footer > .inner {
+  text-align: right; }
+  #footer > .inner a {
+    border-bottom-color: #aa03a4; }
+    #footer > .inner a:hover {
+      border-bottom-color: transparent; }
+  #footer > .inner .menu {
+    font-size: 0.8em;
+    color: #aa03a4; }
 #header + #wrapper + #footer > .inner {
   margin: 0 auto; }
 
