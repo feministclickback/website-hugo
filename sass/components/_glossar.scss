@@ -1,0 +1,30 @@
+.glossar
+  p {
+    display:flex;
+    justify-content:flex-start
+  }
+  p span:first-child {
+          width:30%;
+          color: _palette(fg-bold);
+          font-family: _font(headings);
+          font-size:1.25em
+        }
+
+  p span:last-child {
+          width:70%
+        }
+@include breakpoint('<=small') {
+  .glossar
+    p {
+      flex-direction:column;
+    }
+    p span:first-child {
+        width:100%;
+        font-family: _font(headings);
+        font-size:1.25em;
+        margin-bottom:20px
+    }
+    p span:last-child {
+        width:100%
+      }
+}
