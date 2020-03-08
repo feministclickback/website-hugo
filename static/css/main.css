@@ -1588,7 +1588,7 @@ input[type="radio"] + label:before {
 
 /* Image */
 img {
-  width: 100%; }
+  max-width: 100%; }
 
 .image {
   border-radius: 0.25em;
