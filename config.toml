@@ -3,3 +3,5 @@ languageCode = "en-us"
 title = "feministclickback.org"
 disableKinds = ["taxonomy", "taxonomyTerm"]
 sectionPagesMenu = "headerMenu"
+[markup.goldmark.renderer]
+unsafe= true
