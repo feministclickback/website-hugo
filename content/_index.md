@@ -2,7 +2,6 @@
 title: "Start"
 date: 2019-11-08T18:41:26+01:00
 menu: headerMenu
-draft: true
 ---
 <section id="start" class="wrapper style1 fullscreen fade-up">
 <div class="inner">

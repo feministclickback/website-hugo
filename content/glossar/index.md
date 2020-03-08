@@ -2,7 +2,6 @@
 title: "Glossar"
 date: 2019-11-10T16:48:54+01:00
 menu: "headerMenu"
-draft: true
 ---
 <div class="glossar">
 <p><span>&lt; h1 &gt;</span><span>wichtigste Überschrift, wie sie in HTML ausgezeichnet wird.</span></p>

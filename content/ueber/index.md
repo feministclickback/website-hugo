@@ -3,7 +3,6 @@ title: "Über die Initiative"
 date: 2019-11-08T18:44:20+01:00
 menu: "headerMenu"
 weight: 1
-draft: true
 ---
 <h2>Ziel</h2>
 

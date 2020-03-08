@@ -3,7 +3,6 @@ title: "Workshops"
 date: 2019-11-10T16:48:40+01:00
 menu: "headerMenu"
 weight: 2
-draft: true
 ---
 
 <h2>Themen</h2>

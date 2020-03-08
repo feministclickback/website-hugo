@@ -2,7 +2,6 @@
 title: "Anleitungen"
 date: 2019-11-10T16:48:30+01:00
 menu: "headerMenu"
-draft: true
 ---
 <h2 id="inhalt" >Inhalt</h2>
 <div class="inhalt"><p>
